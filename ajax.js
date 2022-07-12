@@ -14,7 +14,6 @@ function showList(){
 function tableSet(item){
     
     document.getElementById("things").style.display="none";
-    //let item=obj.item;
     let table ="<thead><tr><th>TITLE</th><th>STATUS</th></tr></thead>";
     for(let i=0;i<item.length;i++)
     {       
